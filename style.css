@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+  
+body {
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+
+  header {
+    background: #002244;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main {
+    background: url('images/dubai.jpeg')center/cover no-repeat;
+    color: black;
+    text-align: center;
+    padding: 5em 1em;
+  }
+  
+  .main h1 {
+    font-size: 3em;
+  }
+  
+  .main .btn {
+    background: #ffcc00;
+    color: #000;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1em;
+    display: inline-block;
+  }
+  
+  .container {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  footer {
+    background: #eee;
+    text-align: center;
+    padding: 1em;
+  }
+
+.weather, .map {
+  padding: 2em;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+.weather h2, .map h2 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: #002244;
+}
+
+.curency {
+  padding: 2em;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.converter {
+  margin-top: 1em;
+}
+
+.converter input, .converter select {
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
+}
+
+.converter button {
+  padding: 0.5em 1em;
+  background-color: #002244;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.converter button:hover {
+  background-color: #004080;
+}
