@@ -56,6 +56,14 @@ body {
     margin-top: 1em;
     display: inline-block;
   }
+
+  .cont_a{
+    background-color: fff;
+  }
+
+  .cont_b{
+    background-color: #f0f8ff;
+  }
   
   .container {
     padding: 2em;
@@ -90,7 +98,7 @@ body {
 .weather, .map {
   padding: 2em;
   text-align: center;
-  background-color: #f0f8ff;
+
 }
 
 .weather h2, .map h2 {
@@ -101,7 +109,6 @@ body {
 
 .curency {
   padding: 2em;
-  background-color: #f8f9fa;
   text-align: center;
 }
 
