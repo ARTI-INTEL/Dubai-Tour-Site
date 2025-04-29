@@ -110,7 +110,13 @@ footer {
   background: var(--desert-tan);
   text-align: center;
   padding: 1em;
-  color: var(--text-color);
+  color: var(--background-color);
+  font-weight: bold;
+}
+
+footer a{
+  color: var(--background-color);
+  font-weight: bold;
 }
 
 .weather, .map, .curency {
