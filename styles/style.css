@@ -133,3 +133,26 @@ body {
 .converter button:hover {
   background-color: #004080;
 }
+
+.events-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.event {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.event h3 {
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+
+.event p {
+  margin: 5px 0;
+}
