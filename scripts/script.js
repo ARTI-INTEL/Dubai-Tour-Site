@@ -1,3 +1,7 @@
+async function buttonClicked() {
+  console.log("Explore Button was clicked")
+}
+
 (function loadWeatherWidget(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (!d.getElementById(id)) {

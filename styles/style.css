@@ -44,6 +44,7 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .main {
@@ -143,14 +144,14 @@ footer a{
 .converter button {
   padding: 0.5em 1em;
   background-color: var(--accent-color);
-  color: white;
+  color: var(--background-color);
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .converter button:hover {
-  background-color: #A50E25;
+  background-color: var(--accent-color);
 }
 
 .events-calendar {
@@ -161,7 +162,7 @@ footer a{
 }
 
 .event {
-  background-color: #fdfdfd;
+  background-color: var(--background-color);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
