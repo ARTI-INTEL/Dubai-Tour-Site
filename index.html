@@ -21,91 +21,85 @@
     </nav>
   </header>
 
+  <nav class="secondary-nav">
+    <ul>
+      <li><a href="#top-attractions">Top Attractions</a></li>
+      <li><a href="#happening-now">What's Happening</a></li>
+      <li><a href="#events">Upcoming Events</a></li>
+      <li><a href="#weather">Weather</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#currency">Currency</a></li>
+      <li><a href="#email">Email Updates</a></li>
+    </ul>
+  </nav>
+  
   <section class="main">
     <h1>Welcome to Dubai</h1>
     <p>Experience the best of luxury, culture, and adventure.</p>
     <a onclick="buttonClicked()" class="btn">Start Exploring</a>
   </section>
 
-  <section class="container cont_a">
+  <section id="top-attractions" class="container cont_a">
     <h2>Top Attractions</h2>
     <div class="cards">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Burj Khalifa">
+        <img src="images/BurjKhalifa.jpeg" alt="Burj Khalifa">
         <h3>Burj Khalifa</h3>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Desert Safari">
+        <img src="images/DesrtSafri.jpeg" alt="Desert Safari">
         <h3>Desert Safari</h3>
       </div>
       <div class="card">
-        <img src="" alt="Dubai Mall">
+        <img src="images/BurjArab.jpeg" alt="Burj Al Arab">
         <h3>Dubai Mall</h3>
       </div>
     </div>
   </section>
 
-  <section class="container cont_b">
+  <section id="happening-now" class="container cont_b">
     <h2>Whats happening now</h2>
     <div class="cards">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Burj Khalifa">
-        <h3>Burj Khalifa</h3>
+        <img src="images/GitSec.jpg" alt="Burj Khalifa">
+        <h3>GitSec</h3>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Desert Safari">
+        <img src="images/Eid.jpg" alt="Desert Safari">
+        <h3>Eid Ul Adha</h3>
+      </div>
+      <div class="card">
+        <img src="images/DesrtSafri.jpeg" alt="Dubai Mall">
         <h3>Desert Safari</h3>
-      </div>
-      <div class="card">
-        <img src="" alt="Dubai Mall">
-        <h3>Dubai Mall</h3>
       </div>
     </div>
   </section>
 
-  <section class="container cont_a">
-    <h2>Blogs and Vlogs</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Burj Khalifa">
-        <h3>Burj Khalifa</h3>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Desert Safari">
-        <h3>Desert Safari</h3>
-      </div>
-      <div class="card">
-        <img src="" alt="Dubai Mall">
-        <h3>Dubai Mall</h3>
-      </div>
-    </div>
-  </section>
-
-  <section class="container cont_b">
+  <section id="events" class="container cont_a">
     <h2>Upcoming Events</h2>
     <div class="cards">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Burj Khalifa">
-        <h3>Burj Khalifa</h3>
+        <img src="Images/Gittex.png" alt="Burj Khalifa">
+        <h3>GiTex</h3>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Desert Safari">
-        <h3>Desert Safari</h3>
+        <img src="images/IconOfPorsche.jpg" alt="Desert Safari">
+        <h3>Icon of Porshe</h3>
       </div>
       <div class="card">
-        <img src="" alt="Dubai Mall">
-        <h3>Dubai Mall</h3>
+        <img src="images/Farwell.png" alt="Dubai Mall">
+        <h3>Farewell</h3>
       </div>
     </div>
   </section>
   
-  <section class="weather cont_a">
+  <section id="weather" class="weather cont_b">
     <h2>Current Weather in Dubai</h2>
     <a class="weatherwidget-io" href="https://forecast7.com/en/25d2055d27/dubai/" data-label_1="DUBAI" data-label_2="WEATHER" data-theme="original">DUBAI WEATHER</a>
   </section>
   
 
-  <section class="map cont_b">
+  <section id="map" class="map cont_a">
     <h2>Explore Dubai on the Map</h2>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.9108483311466!2d55.27078217519877!3d25.197197977715665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43376c331fa5%3A0x9a528c5dc2e4edc8!2sDubai%20Mall!5e0!3m2!1sen!2sae!4v1688551486829!5m2!1sen!2sae"
@@ -113,7 +107,7 @@
     </iframe>
   </section> 
   
-  <section class="curency cont_a">
+  <section id="currency" class="curency cont_b">
     <h2>Currency Converter</h2>
     <div class="converter">
       <input type="number" id="amount" placeholder="Enter amount" />
@@ -139,6 +133,15 @@
       <h3 id="result"></h3>
     </div>
   </section>
+
+  <section id="email" class="emailform cont_a">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to receive the latest Dubai travel updates, events, and exclusive offers directly to your inbox.</p>
+    <form action="#" method="POST" class="signup-form">
+      <input type="email" id="emailform" name="email" placeholder="Enter your email address" required>
+      <button type="submit" onclick="subscribe()">Subscribe</button>
+    </form>
+  </section>  
 
   <footer>
     <a href="html/discover.html">Discover</a>

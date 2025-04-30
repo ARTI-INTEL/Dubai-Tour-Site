@@ -33,3 +33,7 @@ async function convertCurrency() {
       document.getElementById('result').innerText = 'Conversion failed. Try again later.';
     }
 }
+
+async function subscribe(){
+  console.log("subscribe to email updates.")
+}
