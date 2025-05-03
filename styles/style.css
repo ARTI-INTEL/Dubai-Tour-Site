@@ -238,3 +238,13 @@ footer a{
 .secondary-nav a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
