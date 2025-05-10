@@ -239,7 +239,17 @@ footer a{
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1536px) {
   .container {
       flex-direction: column;
   }
