@@ -247,6 +247,10 @@ footer a{
   .main {
     flex-direction: column;
   }
+
+  .header {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1536px) {

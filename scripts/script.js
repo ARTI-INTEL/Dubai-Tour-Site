@@ -35,5 +35,5 @@ async function convertCurrency() {
 }
 
 async function subscribe(){
-  console.log("subscribe to email updates.")
+  console.log("Subscribe Button was clicked")
 }
